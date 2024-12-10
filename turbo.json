@@ -15,7 +15,9 @@
             "outputs": ["dist/**"],
             "dependsOn": ["@ai16z/plugin-trustdb#build"]
         },
-
+        "eliza-docs#build": {
+            "outputs": ["build/**"]
+        },
         "dev": {
             "persistent": true,
             "cache": false
